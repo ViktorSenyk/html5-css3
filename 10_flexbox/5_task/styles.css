@@ -2,6 +2,7 @@ header {
     text-align: center;
 }
 .articles-list {
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
 }
