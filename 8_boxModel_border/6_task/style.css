@@ -1,0 +1,25 @@
+.rect, .ova, .circ, .con {
+    width: 100px;
+    height: 50px;
+    margin: 50px;
+}
+.rect {
+
+    background-color: forestgreen;
+    border-radius: 16px;
+}
+.ova {
+    background-color: darkmagenta;
+    border-radius: 50%;
+}
+.circ {
+    height: 100px;
+    background-color: aquamarine;
+    border-radius: 50%;
+}
+.con {
+    height: 100px;
+    box-sizing: border-box;
+    border: 50px solid transparent;
+    border-top: 50px solid brown;
+}
