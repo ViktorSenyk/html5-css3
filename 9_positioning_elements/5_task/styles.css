@@ -12,6 +12,7 @@
 }
 .navigation {
     height: 40px;
+    margin-left: 40px;
 }
 .nav-item {
     float: left;
