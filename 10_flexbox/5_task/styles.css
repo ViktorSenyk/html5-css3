@@ -17,6 +17,6 @@ header {
     flex-basis: 300px;
     flex-grow: 1;
 }
-.article > * {
-    margin-top: 8px;
+.article > h2, .article > p {
+    margin-top: 16px;
 }
