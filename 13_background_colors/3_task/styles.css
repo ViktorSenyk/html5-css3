@@ -13,4 +13,5 @@ header {
     background: linear-gradient(45deg, yellow, red);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
+    white-space: nowrap
 }
