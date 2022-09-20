@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header {
+    width: 100%;
+    height: 40px;
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+}
+.mainNav {
+    display: flex;
+}
+.mainNavItem {
+    list-style: none;
+    margin-left: 16px;
+}
+.page {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+main {
+    flex-grow: 1;
+    display: flex;
+}
+footer {
+    width: 100%;
+    height: 40px;
+    background-color: green;
+    display: flex;
+}
+footer > p {
+    margin: auto;
+}
+section {
+    background-color: pink;
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+aside {
+    width: 200px;
+    background-color: grey;
+    text-align: center;
+}
+aside > h2 {
+    margin: 16px 0;
+}
+.newsList {
+    text-align: start;
+}
+.newsListItem {
+    list-style: none;
+    line-height: 40px;
+    margin-left: 16px;
+}
