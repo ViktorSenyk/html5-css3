@@ -27,7 +27,7 @@
                 <input type="color" name="favouriteColor" value="#ff7f50">
             </div>
             <div class="container">
-                <input type="date" name="birthDay" value="2021-02-01">
+                <input type="date" name="birthDay" value="2021-01-02">
             </div>
             <div class="container">
                 <input type="datetime-local" name="birthTime" value="2024-10-04T13:02">
@@ -50,10 +50,13 @@
             <div class="container">
                 <input type="password" name="password" value="secret">
             </div>
-            <div class="languages container">
-                <input type="radio" name="language" value="html">HTML
-                <input type="radio" name="language" value="css" checked>CSS
-                <input type="radio" name="language" value="javascript">JavaScript
+            <div class="container">
+                <input type="radio" name="language" id="html" value="html">
+                <label class="languages" for="html">HTML</label>
+                <input type="radio" name="language" id="css" value="css" checked>
+                <label class="languages" for="css">CSS</label>
+                <input type="radio" name="language" id="js" value="javascript">
+                <label class="languages" for="js">JavaScript</label>
             </div>
             <div class="container">
                 <input type="range" name="learningProgress" value="30">
