@@ -5,7 +5,7 @@
 }
 .image-container {
     display: flex;
-    margin: 50px;
+    margin: 50px 0;
     justify-content: center;
 }
 .image-container > img {
