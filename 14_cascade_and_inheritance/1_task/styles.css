@@ -1,11 +1,5 @@
-*{
-    box-sizing: border-box;
-}
 body {
     font-size: 18px;
-}
-ul {
-    margin-top: -3px;
 }
 .properties-list__item {
     color: #f39;
