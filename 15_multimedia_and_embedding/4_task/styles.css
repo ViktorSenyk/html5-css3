@@ -14,9 +14,8 @@
   width: 200px;
   height: 50px;
   position: absolute;
-  top: 49.5%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  top: calc(50% - 26px);
+  left: calc(50% - 100px);
   background-color: bisque;
   font-size: 12px;
   text-transform: uppercase;
