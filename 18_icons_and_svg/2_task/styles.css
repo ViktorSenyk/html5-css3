@@ -21,10 +21,10 @@ svg {
   height: 32px;
   vertical-align: middle;
   fill: white;
-  margin-right: 9px;
+  margin-right: 8px;
 }
 .fa-id-card {
-  margin-right: 9px;
+  margin-right: 8px;
 }
 button:hover > svg {
   fill: green;
