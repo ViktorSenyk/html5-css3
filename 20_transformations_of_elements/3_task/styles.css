@@ -6,6 +6,7 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
+    overflow: hidden;
 }
 .spinner-text {
     font-family: monospace;
@@ -21,6 +22,9 @@
     border-radius: 50%;
     margin: 0 auto 8px;
     animation: rotate 2s linear infinite;
+}
+.spinner {
+    margin-top: 1px;
 }
 
 
