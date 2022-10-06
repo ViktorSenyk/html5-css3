@@ -10,6 +10,7 @@
   margin: 0;
   text-transform: uppercase;
   list-style: none;
+  padding-left: 3em;
 }
 .menu__item {
   cursor: pointer;
