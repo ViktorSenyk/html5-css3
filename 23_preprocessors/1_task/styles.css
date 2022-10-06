@@ -29,8 +29,6 @@ ul {
 }
 .nav-list__item:hover {
   opacity: 0.7;
-}
-.nav-list__item:active {
   background-color: #fb0;
 }
 
